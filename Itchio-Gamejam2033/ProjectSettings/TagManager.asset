@@ -7,6 +7,12 @@ TagManager:
   - TestGround
   - DarkGround
   - LightGround
+  - GreenGround
+  - BlueGround
+  - GreenGate
+  - BlueGate
+  - JokerGate
+  - Plataforma
   layers:
   - Default
   - TransparentFX
@@ -14,7 +20,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
