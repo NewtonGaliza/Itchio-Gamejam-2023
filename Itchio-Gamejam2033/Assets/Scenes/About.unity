@@ -506,6 +506,7 @@ RectTransform:
   m_Children:
   - {fileID: 2112682525}
   - {fileID: 1900476439}
+  - {fileID: 1602575636}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -527,6 +528,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonMenu: {fileID: 2112682526}
+--- !u!1 &1602575635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1602575636}
+  - component: {fileID: 1602575638}
+  - component: {fileID: 1602575637}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1602575636
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602575635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1318534656}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -406, y: -283}
+  m_SizeDelta: {x: 561.36, y: 131.11}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1602575637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602575635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2cfaaece6a569fc4e8a18892bb5beb2d, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Click hero to back to MENU >>
+--- !u!222 &1602575638
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602575635}
+  m_CullTransparentMesh: 1
 --- !u!1 &1900476438
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,8 +643,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.53, y: 92.98}
-  m_SizeDelta: {x: 1532.7, y: 736.64}
+  m_AnchoredPosition: {x: 13.53, y: 117.49}
+  m_SizeDelta: {x: 1532.7, y: 785.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900476440
 MonoBehaviour:
@@ -587,10 +668,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3aa60b59c5bb8624f82c5ea3d568d2c6, type: 3}
-    m_FontSize: 50
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 50
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -599,8 +680,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "That\xB4s all Folks!\n\nThanks for playing!\n\nThis game was developed
-    for Itch.io Gamejam 2023\n\nCreated by: Newton Galiza\nEngine: Unity\n\nSprites
-    and Music under an Open Source Licence\n"
+    for Itch.io Gamejam 2023\n\nCreated by: Newton Galiza\nEngine: Unity\n\nSprites 
+    under an Open Source Licence\n\nMusic by Tad\n"
 --- !u!222 &1900476441
 CanvasRenderer:
   m_ObjectHideFlags: 0

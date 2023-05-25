@@ -6,24 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-   // [SerializeField] private Button buttonAbout;
-  //  [SerializeField] private Button buttonMenu;
+    [SerializeField] private Button buttonMenu;
 
     private void Awake()
     {
-        //buttonAbout.onClick.AddListener(LoadAboutScene);
-      //  buttonMenu.onClick.AddListener(LoadStartScene);
-    }
-
-    void LoadAboutScene()
-    {
-        SceneManager.LoadScene("About");
+        buttonMenu.onClick.AddListener(LoadStartScene);
     }
 
     void LoadStartScene()
     {
         SceneManager.LoadScene("StartScene");
     }
-
-     
 }
